@@ -1,0 +1,45 @@
+.AllCountries-wrapper{
+    text-align: center;
+}
+.AllCountries-wrapper h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+.AllCountries-wrapper input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.AllCountries-wrapper h1 span{
+    background-color: rgb(247, 80, 80);
+    padding: 0 10px;
+    color: white;
+    transform: rotate(180deg);
+}
+.AllCountries{
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.AllCountries-table{
+    border: 1px solid rgb(212, 208, 208);
+    width: 80%;
+}
+.AllCountries-table th{
+    padding: 5px 15px;
+    background-color:rgb(65, 64, 64);;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;   
+}
+.AllCountries-table tr{
+    border: 1px solid rgb(212, 208, 208) ;
+}
+.AllCountries-table td{
+    border: 1px solid rgb(212, 208, 208) ;
+}

@@ -1,0 +1,20 @@
+tr .td-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(65, 64, 64);
+}
+tr .td-recovered{
+    background-color: rgb(69, 218, 69);
+    font-weight: 600;
+    color: white;
+}
+tr .td-deaths{
+    background-color: rgb(214, 60, 60);
+    font-weight: 600;
+    color: white;
+}
+.CR-loading img{
+    width: 50px;
+    height: auto;
+
+}

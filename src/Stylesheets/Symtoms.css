@@ -1,0 +1,82 @@
+.Symtoms-wrapper{
+    text-align: center;
+}
+.Symtoms{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Symtoms-wrapper h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+.Symtoms-wrapper h1 span{
+    background-color: rgb(247, 80, 80);
+    padding: 0 10px;
+    color: white;
+    transform: rotate(180deg);
+}
+.Symtoms-image {
+    width: 40%;
+}
+.Symtoms-image img{
+    width: 100%;
+    height: auto;
+}
+
+.Symtom h2{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.Symtoms-box{
+    width: 50%;
+}
+.Symtom{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(247, 80, 80);
+    transition: ease all 0.25s;
+}
+.Symtom:hover{
+    background-color: rgb(247, 80, 80);
+}
+.Symtom:hover .Symtom-icon i{
+    background-color: white;
+    color: rgb(247, 80, 80);
+}
+.Symtom:hover .Symtom-text h3{
+    color: white;
+    transform: translate(-20px, 0);
+}
+.Symtom-icon{
+    width: 20%;
+    text-align: center;
+}
+.Symtom-icon i {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 80, 80) ;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 15px;
+    color: white;
+}
+.Symtom-text{
+    width: 80%;
+}
+.Symtom-text h3{
+    float: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: ease all 0.25s;
+}
+.Symtoms-box h1{
+    text-transform: uppercase;
+    color: rgb(61, 59, 59);
+    margin-bottom: 30px;
+}
+

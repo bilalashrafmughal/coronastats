@@ -1,0 +1,87 @@
+.CS-cases-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.CS-headings{
+    text-align: center;
+}
+.CS-headings h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+.CS-headings h1 span{
+    background-color: rgb(247, 80, 80);
+    padding: 0 10px;
+    color: white;
+    transform: rotate(180deg);
+}
+.CS-cases{
+    background-color: white;
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(247, 80, 80);
+    box-shadow: 2px 2px 2px rgb(175, 173, 173);
+    position: relative;
+}
+
+.CS-cases i{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(247, 80, 80);
+    text-align: center;
+    line-height: 70px;
+}
+.CS-cases h1{
+    color: rgb(247, 80, 80);
+    font-weight: 400;
+    font-size: 35px;
+}
+.case-overlay{
+    background-color: rgb(247, 80, 80);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease all 0.5s;
+}
+.case-overlay h1{
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+.case-overlay:hover{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 100%;
+}
+.CS-Loading{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CS-Loading img{
+    height: 180px;
+    width: auto;
+}
